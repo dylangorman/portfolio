@@ -1,0 +1,51 @@
+.hero-slide {
+  height: 100vh !important;
+  margin-top: 150px;
+  display: flex;
+}
+h2 {
+  position: relative;
+  bottom: 100px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.back {
+  /* position: static; */
+  text-align: center;
+  margin: -40px;
+  width: 80px;
+  border-radius: 10px;
+  border: solid black;
+  cursor: pointer;
+}
+.slide-image {
+  display: flex;
+  /* flex-direction: column; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.hero-slider .content {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  color: #fff;
+  height: 110vh;
+  background-color: black;
+  flex-direction: column;
+
+  justify-content: center;
+  text-align: left;
+}
