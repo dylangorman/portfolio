@@ -34,7 +34,7 @@ const InfoSection = ({
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
     if (window.scrollY >= 80) {
-      setScrollNav(true);
+      setScrollNav(scrollNav);
     } else {
       setScrollNav(false);
     }
