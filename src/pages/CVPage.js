@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../CV/components/CV";
+import CV from "../components/CV/components/CV";
 const CVPage = () => {
   return (
     <>
