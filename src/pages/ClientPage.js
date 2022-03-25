@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSlider from "../Clients/components/HeroSlider";
+import HeroSlider from "../components/Clients/components/HeroSlider";
 
 const ClientPage = () => {
   return (

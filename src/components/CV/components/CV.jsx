@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from "../../components/Contact/ContactElememts";
+import { Icon } from "../../Contact/ContactElememts";
 // custom css
 import "./CV.css";
 

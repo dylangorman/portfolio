@@ -8,7 +8,7 @@ import Swiper from "react-id-swiper";
 import "./HeroSlider.css";
 
 //back to site
-import { Icon } from "../../components/Contact/ContactElememts";
+import { Icon } from "../../Contact/ContactElememts";
 
 // slider configuration
 const HeroSliderConfigs = {
