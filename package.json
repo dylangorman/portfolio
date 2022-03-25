@@ -1,7 +1,7 @@
 {
   "name": "dylanportfolio2022",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.16.2",
