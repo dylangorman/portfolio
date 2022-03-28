@@ -102,7 +102,7 @@ const Footer = ({ toggle }) => {
                 <FooterLinkItems>
                   <FooterLinkTitle>Social Links</FooterLinkTitle>
                   <FooterLink to="//github.com/dylangorman" target="_blank">
-                    Git Hub
+                    GitHub
                   </FooterLink>
                   <FooterLink to="//discord.gg/4UmxyJYj" target="_blank">
                     Discord
