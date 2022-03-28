@@ -151,9 +151,9 @@ const Button = styled.button`
     margin: 40px 70px 20px 70px;
   }
   @media screen and (max-width: 350px) {
-    width: 200px;
-    height: 130px;
-    margin: 60px;
+    width: 280px;
+    height: 160px;
+    margin: 30px;
   }
 `;
 
