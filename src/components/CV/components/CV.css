@@ -95,18 +95,52 @@ table {
 
 /* MEDIA QUERIES */
 
-/* MOBILE  */
+/* OLDER SMALL MOBILE  */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 315px) {
   .page {
-    width: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     /* border: black solid 1px; */
   }
   .cv-page,
   .cv-page2 {
+    padding: 0px;
+  }
+  .cv-header {
+    transform: scale(0.8);
+    text-align: center;
+  }
+
+  .cv-profile p {
+    font-size: 10px;
+  }
+  .cv-experience li {
+    font-size: 10px;
+  }
+
+  .cv-page2 li {
+    font-size: 10px;
+  }
+  .cv-life p {
+    font-size: 10px;
+  }
+  .cv-skills {
+    transform: scale(0.7);
+  }
+}
+
+/* NEW SMART PHONES  */
+@media screen and (max-width: 500px) {
+  .page {
     width: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: black solid 1px; */
+  }
+  .cv-page,
+  .cv-page2 {
     padding: 20px 50px 40px 50px;
   }
 
@@ -125,40 +159,54 @@ table {
   .cv-header {
     align-items: center;
   }
-  .cv-profile,
-  .cv-experience,
-  p,
-  li {
-    font-size: 1.5rem;
+  .cv-header h4 {
+    font-size: 15px;
   }
+
   .cv-skills {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    /* padding: 50px; */
+  }
+  #skills {
+    transform: scale(0.6);
+  }
+  .cv-profile p {
+    font-size: 15px;
+  }
+  .cv-experience li {
+    font-size: 15px;
+  }
+
+  .cv-page2 li {
+    font-size: 15px;
+  }
+  .cv-life p {
+    font-size: 15px;
   }
 }
 
 /* MOBILE HORIZONTAL  */
 
-@media only screen and (max-width: 865px) and (orientation: landscape) {
+@media only screen and (max-width: 1024px) {
   .page {
-    /* width: 100vh; */
+    width: auto;
     display: flex;
     flex-direction: column;
-    /* border: black solid 1px; */
+    border: black solid 1px;
   }
   .cv-page,
   .cv-page2 {
-    transform: scale(0.9);
-    width: auto;
+    /* transform: scale(0.9); */
+    width: 100%;
     padding: 20px 50px 40px 50px;
   }
 }
 
 /* IPAD  verticle */
-@media screen and (max-width: 852px) {
+@media screen and (max-width: 860px) {
   .page {
-    width: 100vh;
+    width: auto;
     display: flex;
     flex-direction: column;
     /* border: black solid 1px; */
@@ -166,7 +214,7 @@ table {
   .cv-page,
   .cv-page2 {
     width: auto;
-    padding: 20px 50px 40px 50px;
+    padding: 20px 30px 40px 30px;
   }
 
   /* CV NAME AND INFO DIV  */
@@ -194,6 +242,20 @@ table {
     display: flex;
     justify-content: center;
     padding: 30px;
+  }
+
+  .cv-profile p {
+    font-size: 15px;
+  }
+  .cv-experience li {
+    font-size: 15px;
+  }
+
+  .cv-page2 li {
+    font-size: 15px;
+  }
+  .cv-life p {
+    font-size: 15px;
   }
 }
 
