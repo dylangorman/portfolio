@@ -80,6 +80,9 @@ export const NavLinks = styled(LinkS)`
     border-bottom: 3px solid #fff;
     /* opacity: 0.5; */
   }
+  @media screen and (max-width: 10241px) {
+    font-size: 1rem;
+  }
 `;
 
 export const NavBtn = styled.nav`
