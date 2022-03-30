@@ -6,13 +6,14 @@ import "./CV.css";
 const CV = () => {
   return (
     <>
-      {/* <div className="cv-navbar">
-        <Icon to="/"> Home</Icon>
-      </div> */}
       <div className="page">
         <div className="cv-page">
           <div className="cv-header">
-            <h1 className="cv-name">DYLAN GORMAN</h1>
+            <Icon className="icon-back" to="/">
+              {" "}
+              Home
+            </Icon>
+            <h4 className="cv-name">DYLAN GORMAN</h4>
             <h4> 65 karslake Rd, Liverpool, L18 1EY</h4>
             <h4>07531018816</h4>
             <h4>dylangorman@me.com</h4>
@@ -49,8 +50,6 @@ const CV = () => {
               long-term career.
             </p>
           </div>
-
-          {/* <br></br> */}
           <div className="cv-experience">
             <h3 className="titles">EXPERIENCE</h3>
             <h4>Adlib</h4>
@@ -104,28 +103,24 @@ const CV = () => {
                 for each event.
               </li>
             </ul>
-
-            <h4>FREELANCE</h4>
-            <h5>Sound Engineer | May 2013-Dec 2016</h5>
-            <ul>
-              <li>
-                Providing excellent sound engineering to many venues in UK.
-              </li>
-              <li>
-                Having knowledge on many Sound Mixing Desks and PA systems
-              </li>
-              <li>
-                Installing PA systems permanent and temporary in many venues and
-                spaces indoor and outdoor.
-              </li>
-              <li>
-                Working to extremely tight deadlines to make sure events start
-                at the necessary time.
-              </li>
-            </ul>
           </div>
         </div>
         <div className="cv-page2">
+          <h4>FREELANCE</h4>
+          <h5>Sound Engineer | May 2013-Dec 2016</h5>
+          <ul>
+            <li>Providing excellent sound engineering to many venues in UK.</li>
+            <li>Having knowledge on many Sound Mixing Desks and PA systems</li>
+            <li>
+              Installing PA systems permanent and temporary in many venues and
+              spaces indoor and outdoor.
+            </li>
+            <li>
+              Working to extremely tight deadlines to make sure events start at
+              the necessary time.
+            </li>
+          </ul>
+
           <h4>BUSINESS PARTNERSHIP</h4>
           <h5>Band Manager and Bass Player Jan 2005 – Oct 2015</h5>
           <ul>
@@ -171,63 +166,64 @@ const CV = () => {
               <li>Grade D for Art & Design, Grade D for AS Mathematics </li>
             </ul>
           </div>
-          <div className="cv-skills"></div>
-          <table id="skills">
-            <tr>
-              <th>Agile</th>
-              <th>Front-End Code</th>
-              <th>Back-End Code</th>
-              <th>Libraries</th>
-              <th>Design</th>
-              <th>IT</th>
-              <th>AV</th>
-            </tr>
-            <tr>
-              <td>Trello</td>
-              <td>HTML</td>
-              <td>MYSQL</td>
-              <td>Node</td>
-              <td>Photoshop</td>
-              <td>Office</td>
-              <td>Audio Desks</td>
-            </tr>
-            <tr>
-              <td>Wire Framing</td>
-              <td>CSS</td>
-              <td>MONGO DB</td>
-              <td>NPM</td>
-              <td>iMovie</td>
-              <td>KeyNote</td>
-              <td>Projectors</td>
-            </tr>
-            <tr>
-              <td>Draw.io</td>
-              <td>Javascript</td>
-              <td>Express</td>
-              <td>Insomnia</td>
-              <td>Canva</td>
-              <td>Excel</td>
-              <td>Green Go Comms</td>
-            </tr>
-            <tr>
-              <td>Vscode</td>
-              <td>JSDom</td>
-              <td>Python</td>
-              <td>DBeaver</td>
-              <td>Coolors</td>
-              <td>Focal Point</td>
-              <td>HireTrack</td>
-            </tr>
-            <tr>
-              <td>GitHub</td>
-              <td>React</td>
-              <td>Git</td>
-              <td>JSON</td>
-              <td>illustrator</td>
-              <td>One Drive</td>
-              <td>Black Magic</td>
-            </tr>
-          </table>
+          <div className="cv-skills">
+            <table id="skills">
+              <tr>
+                <th>Agile</th>
+                <th>F.E</th>
+                <th>B.E</th>
+                <th>Libraries</th>
+                <th>Design</th>
+                <th>IT</th>
+                <th>AV</th>
+              </tr>
+              <tr>
+                <td>Trello</td>
+                <td>HTML</td>
+                <td>MYSQL</td>
+                <td>Node</td>
+                <td>Photoshop</td>
+                <td>Office</td>
+                <td>Audio Desks</td>
+              </tr>
+              <tr>
+                <td>Wire Framing</td>
+                <td>CSS</td>
+                <td>MONGO DB</td>
+                <td>NPM</td>
+                <td>iMovie</td>
+                <td>KeyNote</td>
+                <td>Projectors</td>
+              </tr>
+              <tr>
+                <td>Draw.io</td>
+                <td>Javascript</td>
+                <td>Express</td>
+                <td>Insomnia</td>
+                <td>Canva</td>
+                <td>Excel</td>
+                <td>Green Go Comms</td>
+              </tr>
+              <tr>
+                <td>Vscode</td>
+                <td>JSDom</td>
+                <td>Python</td>
+                <td>DBeaver</td>
+                <td>Coolors</td>
+                <td>Focal Point</td>
+                <td>HireTrack</td>
+              </tr>
+              <tr>
+                <td>GitHub</td>
+                <td>React</td>
+                <td>Git</td>
+                <td>JSON</td>
+                <td>illustrator</td>
+                <td>One Drive</td>
+                <td>Black Magic</td>
+              </tr>
+            </table>
+          </div>
           <div className="cv-life">
             <h3 className="titles">LIFE</h3>
             <p>
