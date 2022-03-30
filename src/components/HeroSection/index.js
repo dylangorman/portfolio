@@ -35,11 +35,11 @@ const HeroSection = ({ toggle }) => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay playsInline loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Dylan Gorman</HeroH1>
-        <HeroH1>Software Developer</HeroH1>
+        <HeroH1>Software Developer</HeroH1>s
         <HeroP>
           Hello and welcome to my portfolio. <br></br>I am Dylan Gorman, I am 41
           years old, married, father of 2 living in South Liverpool. I Have just
